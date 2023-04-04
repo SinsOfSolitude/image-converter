@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+pytracer
+pytracer.py
+setup.cfg
+setup.py
+pytracer.egg-info/PKG-INFO
+pytracer.egg-info/SOURCES.txt
+pytracer.egg-info/dependency_links.txt
+pytracer.egg-info/top_level.txt
