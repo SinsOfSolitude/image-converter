@@ -3,6 +3,7 @@ import numpy as np
 import svgwrite
 import os
 
+
 # This version functions nearly perfectly, although angle calculations are off and plygon count is massive.
 
 def png_to_svg(input_file, output_file):
@@ -34,6 +35,7 @@ def png_to_svg(input_file, output_file):
             dwg.add(dwg.polygon(points, fill=fill_color, stroke=fill_color, fill_opacity=fill_opacity))
 
     dwg.save()
+
 
 input_folder = "venv\Input"
 output_folder = "venv\Output"
